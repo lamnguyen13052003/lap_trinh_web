@@ -1,0 +1,30 @@
+header{
+    background-color: #c4996c;
+}
+
+section{
+    display: -webkit-flex;
+}
+
+nav{
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+footer{
+    background-color: #115d7f;
+    text-align: center;
+}
+
+.content{
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
