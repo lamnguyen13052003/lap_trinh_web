@@ -1,3 +1,7 @@
+.title:nth-of-type(2), .title:nth-of-type(3){
+    margin-top: 200px;
+}
+
 /*Mẫu 1*/
 /*Header*/
 .header1{
@@ -107,5 +111,69 @@
     align-items: center;
 }
 
+/*Mẫu 3*/
+/*header*/
+.header3{
+    width: 900px;
+    height: 120px;
+    background-color: #c4996c;
+    margin-bottom: 20px;
+    border: #000 solid 2px;
+    text-align: center;
+    color: #fff;
+}
 
+/*Navigation*/
+.company{
+    width: 900px;
+    height: 140px;
+    background-color: #a8a9ad;
+    margin-bottom: 20px;
+    border: #000 solid 2px;
+    text-align: center;
+    color: #fff;
+}
+
+.company h1{
+    padding-top: 20px;
+}
+
+/*main*/
+.main3{
+    width: 900px;
+}
+
+.main3 h1{
+    text-align: center;
+}
+
+.main3 table{
+    border-spacing: 100px;
+    margin-top: -80px;
+}
+
+.main3 table tr{
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.main3 table tr td{
+    width: 180px;
+    height: 220px;
+    background-color: #a8a9ad;
+    border: #000 solid 3px;
+}
+
+/*footer*/
+.footer3{
+    display: flex;
+    width: 900px;
+    height: 120px;
+    background-color: #115d7f;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: -80px;
+}
 
