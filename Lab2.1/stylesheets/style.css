@@ -1,0 +1,60 @@
+.body {
+    margin: 0;
+    padding: 0;
+    color: black;
+
+    font-family: sans-serif, Arial, Tahoma;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    width: 1890px;
+}
+
+/******************section_normal_1*******************/
+#section_normal_1 {
+    height: 80px;
+    width: 100%;
+
+    border-bottom: #CFCFCF solid 4px;
+}
+
+#section_normal_1 .sixteen {
+    padding-top: 15px;
+}
+
+#section_normal_1 .alpha {
+    float: left;
+    margin-left: 360px;
+}
+
+#section_normal_1 .alpha img {
+    width: 170px;
+    height: 40px;
+}
+
+#section_normal_1 .omega {
+    float: right;
+    margin-right: 345px;
+}
+
+#section_normal_1 .omega img {
+    height: 40px;
+    width: 40px;
+}
+
+#section_normal_1 .omega .htext_style {
+    float: left;
+    height: 40px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+
+    font-size: 20px;
+    color: #B6B6B6;
+}
+
