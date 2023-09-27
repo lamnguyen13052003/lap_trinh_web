@@ -115,6 +115,10 @@ a {
     height: 100px;
 }
 
+#section_header_1 .navbar-header{
+    display: none;
+}
+
 #section_header_1 .container a {
     color: #7f7f7f;
 }
