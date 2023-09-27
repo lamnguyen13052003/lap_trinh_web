@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Vi">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Lab2.2</title>
     <link href="stylesheets/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/style.css">
-<!--    <link rel="stylesheet" href="fonts/flatpack.eot" type="text/html">-->
-<!--    <link rel="stylesheet" href="fonts/flatpack.ttf" type="text/html">-->
-<!--    <link rel="stylesheet" href="fonts/flatpack.woff" type="text/html">-->
-<!--    <link rel="stylesheet" href="fonts/Flat-UI-Icons.eot" type="text/html">-->
-<!--    <link rel="stylesheet" href="fonts/Flat-UI-Icons.woff" type="text/html">-->
-<!--    <link rel="stylesheet" href="fonts/Flat-UI-Icons.ttf" type="text/html">-->
+    <!--    <link rel="stylesheet" href="fonts/flatpack.eot" type="text/html">-->
+    <!--    <link rel="stylesheet" href="fonts/flatpack.ttf" type="text/html">-->
+    <!--    <link rel="stylesheet" href="fonts/flatpack.woff" type="text/html">-->
+    <!--    <link rel="stylesheet" href="fonts/Flat-UI-Icons.eot" type="text/html">-->
+    <!--    <link rel="stylesheet" href="fonts/Flat-UI-Icons.woff" type="text/html">-->
+    <!--    <link rel="stylesheet" href="fonts/Flat-UI-Icons.ttf" type="text/html">-->
 
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -32,20 +32,19 @@
         </div>
     </div>
 
-
     <div class="" id="section_header_1">
         <div class="header_style header_nav_1 pix_builder_bg">
             <div class="container">
                 <div class="sixteen columns firas2">
                     <nav role="navigation" class="navbar navbar-white navbar-embossed navbar-lg pix_nav_1">
                         <div class="containerss">
-<!--                            <div class="navbar-header">-->
-<!--                                <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle"-->
-<!--                                        type="button">-->
-<!--                                    <span class="sr-only">Toggle navigation</span>-->
-<!--                                </button>-->
+                            <!--                            <div class="navbar-header">-->
+                            <!--                                <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle"-->
+                            <!--                                        type="button">-->
+                            <!--                                    <span class="sr-only">Toggle navigation</span>-->
+                            <!--                                </button>-->
 
-<!--                            </div>-->
+                            <!--                            </div>-->
                             <div class="padding_25 right_socials">
                                 <ul class="bottom-icons">
                                     <li><a href="#fakelink"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -67,6 +66,7 @@
             </div><!-- container -->
         </div>
     </div>
+
     <div class="pixfort_pix_slider pix_builder_bg" id="section_slider">
         <div class="container">
             <div class="sixteen columns">
@@ -79,23 +79,23 @@
                     </ol>
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
-                        <div class="item active">
+                        <div class="item active" data-slide-to="0">
                             <img src="images/main/image-1.jpg" alt="">
                             <div class="carousel-caption editContent">
-                                <h3>Thumbnail label</h3>
+                                <h3>Thumbnail label 1</h3>
                                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
                                     sem nec.</p>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item" data-slide-to="1">
                             <img src="images/main/image-2.jpg" alt="">
                             <div class="carousel-caption editContent">
-                                <h3>Thumbnail label</h3>
+                                <h3>Thumbnail label 2</h3>
                                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
                                     sem nec.</p>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item" data-slide-to="2">
                             <img src="images/main/image-3.jpg" alt="">
                             <div class="carousel-caption editContent">
                                 <h3>Thumbnail label</h3>
@@ -105,24 +105,31 @@
                         </div>
                     </div>
                     <!-- Controls -->
-                    <a class="left carousel-control fui-arrow-left" href="#myCarousel" data-slide="prev"></a>
-                    <a class="right carousel-control fui-arrow-right" href="#myCarousel" data-slide="next"></a>
+                    <div class="controls">
+                        <div class="button">
+                            <div><i class="fa-solid fa-arrow-left" data-slide="prev"></i></div>
+                            <div><i class="fa-solid fa-arrow-right" data-slide="next"></i></div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div><!-- /.container -->
     </div>
+
     <div class="pixfort_gym_13 pix_builder_bg" id="section_gym_4">
         <div class="gym_life">
             <div class="container">
                 <div class="sixteen columns  gym_life">
-
                     <div class="top_padding">
                         <div class="one-third column alpha">
                             <div class="part_st">
                                 <div class="img_gym_st"><img src="images/13_gym/1.jpg" class="logo_style" alt=""></div>
                                 <div class="text_gym_style">
-                                    <p class="gym_st"><span class="editContent">Welcome to Gym</span></p>
-                                    <p class="gym_text"><span class="editContent">Lorem ipsum dolor sit amet consectetur adipiscing elite.</span>
+                                    <p class="gym_st">
+                                        <span class="editContent">Welcome to Gym</span></p>
+                                    <p class="gym_text">
+                                        <span class="editContent">Lorem ipsum dolor sit amet consectetur adipiscing elite.</span>
                                     </p>
                                 </div>
 
@@ -350,5 +357,7 @@
 
 <!--cript font-->
 <script src="https://kit.fontawesome.com/98bcf6ee9c.js" crossorigin="anonymous"></script>
+<!--cript-->
+<script src="javascript/index.js"></script>
 </body>
 </html>
