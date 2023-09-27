@@ -66,7 +66,7 @@ a {
     display: none;
 }
 
-#section_header_2_dark .navbar-header img{
+#section_header_2_dark .navbar-header img {
     width: 170px;
     height: 40px;
 }
@@ -84,17 +84,113 @@ a {
 }
 
 #navbar-collapse-02 ul li,
-#navbar-collapse-02 ul li a{
+#navbar-collapse-02 ul li a {
     color: #cccccc;
 }
 
 
-#navbar-collapse-02 ul .text_span{
+#navbar-collapse-02 ul .text_span {
     color: #fecc33;
 }
-/******************************section_pix_4******************************/
 
+/******************************section_pix_4******************************/
+#section_pix_4 {
+    height: 1069px;
+}
+
+#section_pix_4 .has-video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#section_pix_4 .has-video > div {
+    position: absolute;
+}
+
+#section_pix_4 .pix_video_div video {
+    background-color: #fecc33;
+    width: 1900px;
+    filter: brightness(0.4);
+}
+
+#section_pix_4 .section_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section_pix_4 .section_wrapper .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section_pix_4 .section_wrapper .context_style {
+    height: 430px;
+    width: 925px;
+}
+
+#section_pix_4 .section_wrapper .context_style > div {
+    display: flex;
+    justify-content: center;
+}
+
+#section_pix_4 .title_style .editContent {
+    margin-top: 85px;
+    font-weight: bold;
+}
+
+#section_pix_4 .title_style .editContent .pix_text {
+    font-size: 57px;
+}
+
+#section_pix_4 .has-video .subtitle_style .creative_h_text {
+    width: 770px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+#section_pix_4 .subtitle_style .creative_h_text .pix_text {
+    font-size: 24px;
+}
+#contact_form_1{
+    background-color: #252425;
+    width: 590px;
+    height: 90px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact_form_1 > *{
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact_form_1 input{
+    width: 315px;
+    padding: 0 15px;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+#contact_form_1 button{
+    width: 175px;
+    background-color: #f1c232;
+
+    font-size: 18px;
+    color: white;
+}
 /******************************hidden_pix_1******************************/
+#hidden_pix_1 {
+    display: none;
+}
 
 /******************************section_university_5******************************/
 
