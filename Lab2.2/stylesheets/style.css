@@ -14,7 +14,7 @@ h3{
     font-size: 30px;
 }
 
-p{
+p, span{
     font-size: 18px;
     margin: 0;
 }
@@ -35,6 +35,14 @@ ul, ol {
 
 a {
     text-decoration: none;
+}
+
+.blue_text{
+    color: #2dc0e8;
+}
+
+.big_title{
+    font-size: 50px;
 }
 
 @keyframes slideFromRight {
@@ -309,6 +317,73 @@ a {
     justify-content: center;
     color: #ffffff;
     border-radius: 5px;
+}
+
+/**************************section_intro_title**************************/
+#section_intro_title{
+    height: 600px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+}
+
+#section_intro_title .one-third{
+    display: inline-block;
+    width: 370px;
+    height: 495px;
+    border: #DDDDDD 3px solid;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-top: 15px;
+}
+
+#section_intro_title .one-third:nth-of-type(2){
+    margin: 15px 21px 0;
+}
+
+#section_intro_title .one-third:nth-of-type(2) p:nth-of-type(1){
+    color: #f77825;
+}
+
+#section_intro_title .one-third .flat_pricing > *{
+    display: flex;
+    justify-content: center;
+}
+
+#section_intro_title .one-third .flat_pricing p:nth-of-type(1){
+    margin-top: 45px;
+}
+
+#section_intro_title .one-third .flat_pricing p:nth-of-type(2){
+    margin-top: 25px;
+    margin-bottom: 55px;
+    font-weight: bold;
+    color: #999999;
+}
+
+#section_intro_title .one-third .flat_pricing .flat_pricing_list{
+    display: list-item;
+    justify-content: center;
+
+}
+
+#section_intro_title .one-third .flat_pricing  .pix_text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    color: #b6adad;
+}
+
+#section_intro_title .one-third .flat_pricing a span{
+    width: 220px;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f77825;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 
