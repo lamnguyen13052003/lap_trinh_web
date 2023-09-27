@@ -20,7 +20,7 @@ p, span {
 }
 
 .page {
-    width: 1884px;
+    width: 1900px;
 }
 
 .container {
@@ -44,3 +44,60 @@ a {
 .big_title {
     font-size: 50px;
 }
+
+#page > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/******************************section_header_2_dark******************************/
+#section_header_2_dark {
+    height: 95px;
+    background-color: #333333;
+}
+
+#section_header_2_dark .navbar-header {
+    float: left;
+    cursor: pointer;
+}
+
+#section_header_2_dark .navbar-header button {
+    display: none;
+}
+
+#section_header_2_dark .navbar-header img{
+    width: 170px;
+    height: 40px;
+}
+
+#navbar-collapse-02 {
+    float: right;
+}
+
+#navbar-collapse-02 ul li {
+    display: inline-block;
+    margin-left: 40px;
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#navbar-collapse-02 ul li,
+#navbar-collapse-02 ul li a{
+    color: #cccccc;
+}
+
+
+#navbar-collapse-02 ul .text_span{
+    color: #fecc33;
+}
+/******************************section_pix_4******************************/
+
+/******************************hidden_pix_1******************************/
+
+/******************************section_university_5******************************/
+
+/******************************hidden_pix_6******************************/
+
+/******************************section_ecourse_7******************************/
