@@ -156,7 +156,8 @@ a {
 #section_pix_4 .subtitle_style .creative_h_text .pix_text {
     font-size: 24px;
 }
-#contact_form_1{
+
+#contact_form_1 {
     background-color: #252425;
     width: 590px;
     height: 90px;
@@ -167,32 +168,130 @@ a {
     justify-content: center;
 }
 
-#contact_form_1 > *{
+#contact_form_1 > * {
     height: 45px;
     border: none;
     border-radius: 5px;
 }
 
-#contact_form_1 input{
+#contact_form_1 input {
     width: 315px;
     padding: 0 15px;
     font-size: 18px;
     margin-right: 25px;
 }
 
-#contact_form_1 button{
+#contact_form_1 button {
     width: 175px;
     background-color: #f1c232;
 
     font-size: 18px;
     color: white;
 }
+
 /******************************hidden_pix_1******************************/
-#hidden_pix_1 {
-    display: none;
+#hidden_pix_1, pixfort_normal_1 {
+    display: none !important;
 }
 
 /******************************section_university_5******************************/
+#section_university_5 {
+    height: 730px;
+}
+
+
+#section_university_5 .alpha {
+
+    float: left;
+    width: 750px;
+}
+
+#section_university_5 .alpha .psingle_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+#section_university_5 .alpha .psingle_item > div {
+    display: inline-block;
+}
+
+#section_university_5 .alpha .psingle_item img{
+    background-color: white;
+    width: 185px;
+}
+
+#section_university_5 .alpha .psingle_item .text_st{
+    margin-left: 45px;
+    height: 120px;
+    width: 485px;
+}
+
+#section_university_5 .alpha .psingle_item .text_st .title_st{
+    color: black;
+    font-size: 25px;
+    font-weight: initial;
+    margin-bottom: 30px;
+}
+
+#section_university_5 .alpha .psingle_item .text_st .subject_st{
+    font-size: 18px;
+    font-weight: initial;
+    color: #bababa;
+}
+
+#section_university_5 .omega {
+    float: right;
+    background-color: #ebeaea;
+    width: 425px;
+    height: 610px;
+    border-radius: 5px;
+}
+
+#section_university_5 .omega .substyle > * {
+    margin-left: 25px;
+}
+
+#section_university_5 .omega .title-style {
+    margin-top: 40px;
+}
+
+#section_university_5 .omega .title-style .pix_text {
+    font-size: 30px;
+}
+
+#section_university_5 .omega .text-style {
+    margin: 15px 25px;
+}
+
+#section_university_5 .omega .text-style .pix_text {
+    color: #B0B0B0;
+    font-size: 19px;
+}
+
+#contact_form_2 input,
+#countries,
+#contact_form_2 button {
+    width: 340px;
+    display: list-item;
+    list-style-type: none;
+    padding: 20px 15px;
+    border-radius: 5px;
+    border: #cccccc solid 2px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+#countries,
+#contact_form_2 button {
+    width: 380px;
+}
+
+#contact_form_2 button {
+    border: none;
+    background-color: #7cc576;
+    color: white;
+}
 
 /******************************hidden_pix_6******************************/
 
