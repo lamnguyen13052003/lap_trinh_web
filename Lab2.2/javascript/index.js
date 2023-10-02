@@ -7,6 +7,8 @@ function getListDotDisplayImg(){
     return document.querySelectorAll('#myCarousel .carousel-indicators li');
 }
 
+
+//Function change image aut
 function displayImgAuto(indexDisplay){
     const listImg = getListImg();
     listImg.forEach((element) => {
@@ -22,10 +24,13 @@ function displayImgAuto(indexDisplay){
     listImg[indexDisplay].setAttribute("class", "item active");
     return indexDisplay == 2 ? 0 : ++indexDisplay;
 }
+
+//Same function for but it dont make this page is stop
 setInterval(() => {
     indexDisplay = displayImgAuto(indexDisplay);
 }, 5000);
 
+//Set Action for dot in right top img
 const listDotDisplayImg = getListDotDisplayImg();
 listDotDisplayImg.forEach(dot => {
     dot.addEventListener("click", () => {
@@ -33,6 +38,7 @@ listDotDisplayImg.forEach(dot => {
     })
 })
 
+//set action for button next and prev
 const listButton = document.querySelectorAll("#myCarousel .button div");
 for (let i = 0; i < listButton.length; i++) {
     listButton[i].addEventListener("click", () => {
