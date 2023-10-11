@@ -53,3 +53,26 @@ function setActionForButtonNumber(nextNumber){
         $(this).removeClass("bg-danger");
     });
 }
+
+function runTime(){
+    if(!time){
+        setInterval(() => {
+            if(second == 59){
+                second = 0;
+            }else{
+                second++;
+            }
+
+            if (second == 59 && munute == 59){
+                munute = 0;
+            }else{
+                munute++;
+            }
+
+            if (second == 59 && munute == 59 && hour == 23){
+                hour = 0;
+            }
+
+        }, 1000);
+    }
+}
