@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(90deg, rgba(39, 98, 129, 0.40) 0%, rgba(164, 6, 234, 0.40) 100%),
+    url("../sen-da.jpg");
+    background-size: cover; /*theo chiều ngang*/
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*theo chiều dọc*/
+}
+
+#main {
+    min-height: 850px;
+}
