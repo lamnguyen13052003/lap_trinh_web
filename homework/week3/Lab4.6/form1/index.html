@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <script src="https://kit.fontawesome.com/98bcf6ee9c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <title>Form 1</title>
+</head>
+<body>
+<div id="main">
+    <div class="container">
+        <div class="form">
+            <h1>Contact Us</h1>
+            <form action="" method="get">
+                <div class="input large-width full-name">
+                    <label for="full-name">FULL NAME*</label>
+                    <input type="text" name="full-name" id="full-name" required placeholder="Enter Your Name">
+                </div>
+                <div class="input medium-width email">
+                    <label for="email">EMAIL*</label>
+                    <input class="email" type="text" name="email" id="email" required placeholder="Enter Your Email">
+                </div>
+                <div class="input medium-width phone">
+                    <label for="phone">PHONE</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+                </div>
+                <div class="input large-width">
+                    <label for="needed-services">NEEDES SERVICES*</label>
+                    <select name="needed-services" id="needed-services" required>
+                        <option value="null" selected>Please chooses</option>
+                        <option value="services-1">Services 1</option>
+                        <option value="services-2">Services 2</option>
+                        <option value="services-3">Services 3</option>
+                        <option value="services-4">Services 4</option>
+                        <option value="services-5">Services 5</option>
+                    </select>
+                </div>
+                <div class="input large-width text-area">
+                    <label for="message">MESSAGE</label>
+                    <textarea name="message" id="message" cols="50" rows="5" placeholder="Your message here..."></textarea>
+                </div>
+                <div class="button large-width">
+                    <button id="submit" type="button">
+                        <span>Submit</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="../javascripts/script.js"></script>
+</body>
+</html>
